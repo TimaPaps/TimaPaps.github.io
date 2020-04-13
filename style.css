@@ -35,6 +35,15 @@ body {
     color: white;
 }
 
+.user-foto {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid rgb(150, 150, 150);
+    object-fit: cover;
+    cursor: pointer;
+}
+
 .portfolio-right {
     background: white;
     width: 60%;
@@ -72,14 +81,6 @@ p {
     margin-bottom: 30px;
     color: rgb(51, 51, 51);
     border-bottom: 4px solid rgb(150, 150, 150);
-}
-
-.user-foto {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    border: 3px solid rgb(150, 150, 150);
-    object-fit: cover;
 }
 
 .portfolio-right-footer {
