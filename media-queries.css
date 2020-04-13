@@ -1,23 +1,23 @@
 @media only screen and (max-width: 1280px) {
     .main {
-        width: auto;
+        width: 100%;
     }
 }
 
 @media only screen and (max-width: 992px) {
     .main {
-        width: auto;
+        width: 100%;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .main {
-        width: auto;
+        width: 100%;
     }
 }
 
 @media only screen and (max-width: 480px) {
     .main {
-        width: auto;
+        width: 100%;
     }
 }
