@@ -5,7 +5,7 @@ body {
 .main {
     background: #c7c7c7;
     width: 100%;
-    height: 100vh;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
