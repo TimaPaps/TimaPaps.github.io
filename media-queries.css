@@ -1,4 +1,4 @@
-@media all and (max-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-width: 479px) {
     .portfolio {
         display: block;
         width: 90%;
@@ -16,6 +16,7 @@
         padding: 10px;
         margin-left: 10px;
         margin-right: 10px;
+        margin-bottom: 10px;
         border-radius: 0 30px 30px 0;
         width: auto;
     }
@@ -62,7 +63,7 @@
     }
 }
 
-@media all and (max-width: 768px) and  (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (min-width: 480px) and (max-width: 800px) {
     .portfolio {
         border-radius: 30px; 
     }
