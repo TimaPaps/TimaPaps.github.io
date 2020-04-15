@@ -1,23 +1,118 @@
-@media only screen and (max-width: 1280px) {
-    .main {
-        width: 970px;
+@media only screen and (max-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .portfolio {
+        display: block;
+        width: 90%;
+        border-radius: 30px; 
+    }
+
+    .portfolio-left {
+        padding: 10px;  
+        border-radius: 30px 30px 0 0px;  
+        width: auto;
+    }
+
+    .portfolio-right {
+        background: white;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 0 30px 30px 0;
+        width: auto;
+    }
+
+    h1 {
+        margin: 0px;
+    }
+
+    h2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        margin-top: 0px;
+        margin-bottom: 3px;
+    }
+
+    p {
+        margin-top: 0px;
+        margin-bottom: 3px;
+    }
+
+    .portfolio-info {
+        margin-bottom: 3px;
+        color: rgb(51, 51, 51);
+        border-bottom: 2px solid rgb(150, 150, 150);
+    }
+
+    .user-foto {
+        height: 100px;
+        width: 100px;
+    }
+
+    .botton {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .social {
+        height: 30px;
+        width: 30px;
+        padding: 7px;
     }
 }
 
-@media only screen and (max-width: 992px) {
-    .main {
-        width: 750px;
+@media only screen and (max-width: 768px) and  (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .portfolio {
+        border-radius: 30px; 
     }
-}
 
-@media only screen and (max-width: 768px) {
-    .main {
-        width: 450px;
+    .portfolio-left {
+        padding: 10px;  
+        border-radius: 30px 0 0 30px;  
     }
-}
 
-@media only screen and (max-width: 480px) {
-    .main {
-        width: 320px;
+    .portfolio-right {
+        background: white;
+        width: 60%;
+        padding: 10px;
+        margin: auto;
+        border-radius: 0 30px 30px 0;
+    }
+
+    h2 {
+        margin: 0px;
+    }
+
+    h3 {
+        margin-top: 0px;
+        margin-bottom: 3px;
+    }
+
+    p {
+        margin-top: 0px;
+        margin-bottom: 3px;
+    }
+
+    .portfolio-info {
+        margin-bottom: 3px;
+        color: rgb(51, 51, 51);
+        border-bottom: 2px solid rgb(150, 150, 150);
+    }
+
+    .user-foto {
+        height: 150px;
+        width: 150px;
+    }
+
+    .botton {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .social {
+        height: 30px;
+        width: 30px;
+        padding: 7px;
     }
 }
