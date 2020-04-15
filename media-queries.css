@@ -46,6 +46,13 @@
         border-bottom: 2px solid rgb(150, 150, 150);
     }
 
+    .about-me {
+        display: none;
+        color: rgb(51, 51, 51);
+        border-bottom: 2px solid rgb(150, 150, 150);
+        padding-bottom: 3px;
+    }
+
     .user-foto {
         height: 80px;
         width: 80px;
@@ -109,6 +116,13 @@
         margin-bottom: 3px;
         color: rgb(51, 51, 51);
         border-bottom: 2px solid rgb(150, 150, 150);
+    }
+
+    .about-me {
+        display: none;
+        color: rgb(51, 51, 51);
+        border-bottom: 2px solid rgb(150, 150, 150);
+        padding-bottom: 3px;
     }
 
     .user-foto {
@@ -177,6 +191,13 @@
         border-bottom: 2px solid rgb(150, 150, 150);
     }
 
+    .about-me {
+        display: none;
+        color: rgb(51, 51, 51);
+        border-bottom: 2px solid rgb(150, 150, 150);
+        padding-bottom: 3px;
+    }
+
     .user-foto {
         height: 150px;
         width: 150px;
@@ -229,6 +250,13 @@
         margin-bottom: 3px;
         color: rgb(51, 51, 51);
         border-bottom: 2px solid rgb(150, 150, 150);
+    }
+
+    .about-me {
+        display: none;
+        color: rgb(51, 51, 51);
+        border-bottom: 2px solid rgb(150, 150, 150);
+        padding-bottom: 3px;
     }
 
     .user-foto {
@@ -286,6 +314,13 @@
         border-bottom: 2px solid rgb(150, 150, 150);
     }
 
+    .about-me {
+        display: none;
+        color: rgb(51, 51, 51);
+        border-bottom: 2px solid rgb(150, 150, 150);
+        padding-bottom: 3px;
+    }
+
     .user-foto {
         height: 120px;
         width: 120px;
@@ -341,6 +376,13 @@
         border-bottom: 2px solid rgb(150, 150, 150);
     }
 
+    .about-me {
+        display: none;
+        color: rgb(51, 51, 51);
+        border-bottom: 2px solid rgb(150, 150, 150);
+        padding-bottom: 3px;
+    }
+
     .user-foto {
         height: 150px;
         width: 150px;
@@ -394,6 +436,13 @@
         margin-bottom: 3px;
         color: rgb(51, 51, 51);
         border-bottom: 2px solid rgb(150, 150, 150);
+    }
+
+    .about-me {
+        display: none;
+        color: rgb(51, 51, 51);
+        border-bottom: 2px solid rgb(150, 150, 150);
+        padding-bottom: 3px;
     }
 
     .user-foto {
