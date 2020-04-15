@@ -96,6 +96,12 @@ p {
     margin-top: 10px;
 }
 
+.click-on-Bender {
+    text-align: center;
+    color: red;
+    margin-top: 5px;
+}
+
 .botton {
     background: rgb(92, 117, 228);
     color: white;

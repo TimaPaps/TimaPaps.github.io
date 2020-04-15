@@ -7,7 +7,7 @@ $('.user-foto').click(function(){
 });
 
 $('.botton').click(function(){
-    $('.about-me').slideToggle(2000);
+    $('.about-me').slideToggle(2500);
     $('.about-me h3').css('color', 'rgb(0, 47, 255)')
     $('.about-me span').css('color', 'rgb(30, 71, 252)')
 });
