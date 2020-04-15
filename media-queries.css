@@ -1,125 +1,4 @@
-@media only screen and (max-width: 720px) and (orientation: portrait) {
-    .portfolio {
-        display: block;
-        width: 90%;
-        border-radius: 30px; 
-    }
-
-    .portfolio-left {
-        padding: 10px;  
-        border-radius: 30px 30px 0 0;  
-        width: auto;
-    }
-
-    .portfolio-right {
-        background: white;
-        padding: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 10px;
-        border-radius: 0 30px 30px 0;
-        width: auto;
-
-    }
-
-    h1 {
-        margin: 0px;
-    }
-
-    h2 {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    h3 {
-        margin-top: 0px;
-        margin-bottom: 3px;
-    }
-
-    p {
-        margin-top: 0px;
-        margin-bottom: 3px;
-    }
-
-    .portfolio-info {
-        margin-bottom: 3px;
-        color: rgb(51, 51, 51);
-        border-bottom: 2px solid rgb(150, 150, 150);
-    }
-
-    .user-foto {
-        height: 100px;
-        width: 100px;
-    }
-
-    .botton {
-        padding: 10px;
-        border-radius: 10px;
-    }
-
-    .social {
-        height: 30px;
-        width: 30px;
-        padding: 7px;
-    }
-}
-
-@media only screen and (min-width: 721px) and (orientation: landscape) {
-    .portfolio {
-        border-radius: 30px; 
-    }
-
-    .portfolio-left {
-        padding: 10px;  
-        border-radius: 30px 0 0 30px;  
-    }
-
-    .portfolio-right {
-        background: white;
-        width: 60%;
-        padding: 10px;
-        margin: auto;
-        border-radius: 0 30px 30px 0;
-    }
-
-    h2 {
-        margin: 0px;
-    }
-
-    h3 {
-        margin-top: 0px;
-        margin-bottom: 3px;
-    }
-
-    p {
-        margin-top: 0px;
-        margin-bottom: 3px;
-    }
-
-    .portfolio-info {
-        margin-bottom: 3px;
-        color: rgb(51, 51, 51);
-        border-bottom: 2px solid rgb(150, 150, 150);
-    }
-
-    .user-foto {
-        height: 150px;
-        width: 150px;
-    }
-
-    .botton {
-        padding: 10px;
-        border-radius: 10px;
-    }
-
-    .social {
-        height: 30px;
-        width: 30px;
-        padding: 7px;
-    }
-}
-
-@media only screen and (max-width: 540px) and (orientation: portrait) {
+@media screen and (min-width: 320px) and (orientation: portrait) {
     .portfolio {
         display: block;
         width: 90%;
@@ -178,13 +57,198 @@
     }
 
     .social {
-        height: 25px;
-        width: 25px;
-        padding: 7px;
+        height: 30px;
+        width: 30px;
+        padding: 2px;
     }
 }
 
-@media only screen and (min-width: 541px) and (max-width: 719px) and (orientation: landscape) {
+@media screen and (min-width: 540px) and (orientation: portrait) {
+    .portfolio {
+        display: block;
+        width: 90%;
+        border-radius: 30px; 
+    }
+
+    .portfolio-left {
+        padding: 10px;  
+        border-radius: 30px 30px 0 0;  
+        width: auto;
+    }
+
+    .portfolio-right {
+        background: white;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        border-radius: 0 30px 30px 0;
+        width: auto;
+    }
+
+    h1 {
+        margin: 0px;
+    }
+
+    h2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        margin-top: 0px;
+        margin-bottom: 3px;
+    }
+
+    p {
+        margin-top: 0px;
+        margin-bottom: 3px;
+    }
+
+    .portfolio-info {
+        margin-bottom: 3px;
+        color: rgb(51, 51, 51);
+        border-bottom: 2px solid rgb(150, 150, 150);
+    }
+
+    .user-foto {
+        height: 120px;
+        width: 120px;
+    }
+
+    .botton {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .social {
+        height: 35px;
+        width: 35px;
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width: 720px) and (orientation: portrait) {
+    .portfolio {
+        display: block;
+        width: 90%;
+        border-radius: 30px; 
+    }
+
+    .portfolio-left {
+        padding: 10px;  
+        border-radius: 30px 30px 0 0;  
+        width: auto;
+    }
+
+    .portfolio-right {
+        background: white;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        border-radius: 0 30px 30px 0;
+        width: auto;
+
+    }
+
+    h1 {
+        margin: 0px;
+    }
+
+    h2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        margin-top: 0px;
+        margin-bottom: 3px;
+    }
+
+    p {
+        margin-top: 0px;
+        margin-bottom: 3px;
+    }
+
+    .portfolio-info {
+        margin-bottom: 3px;
+        color: rgb(51, 51, 51);
+        border-bottom: 2px solid rgb(150, 150, 150);
+    }
+
+    .user-foto {
+        height: 150px;
+        width: 150px;
+    }
+
+    .botton {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .social {
+        height: 40px;
+        width: 40px;
+        padding: 7px;
+    }
+}
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+    .portfolio {
+        border-radius: 30px; 
+    }
+
+    .portfolio-left {
+        padding: 10px;  
+        border-radius: 30px 0 0 30px;  
+    }
+
+    .portfolio-right {
+        background: white;
+        width: 60%;
+        padding: 10px;
+        margin: auto;
+        border-radius: 0 30px 30px 0;
+    }
+
+    h2 {
+        margin: 0px;
+    }
+
+    h3 {
+        margin-top: 0px;
+        margin-bottom: 3px;
+    }
+
+    p {
+        margin-top: 0px;
+        margin-bottom: 3px;
+    }
+
+    .portfolio-info {
+        margin-bottom: 3px;
+        color: rgb(51, 51, 51);
+        border-bottom: 2px solid rgb(150, 150, 150);
+    }
+
+    .user-foto {
+        height: 100px;
+        width: 100px;
+    }
+
+    .botton {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .social {
+        height: 30px;
+        width: 30px;
+        padding: 2px;
+    }
+}
+
+@media only screen and (min-width: 540px) and (orientation: landscape) {
     .portfolio {
         border-radius: 30px; 
     }
@@ -233,8 +297,118 @@
     }
 
     .social {
-        height: 25px;
-        width: 25px;
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+    }
+}
+
+@media only screen and (min-width: 720px) and (orientation: landscape) {
+    .portfolio {
+        border-radius: 30px; 
+    }
+
+    .portfolio-left {
+        padding: 10px;  
+        border-radius: 30px 0 0 30px;  
+    }
+
+    .portfolio-right {
+        background: white;
+        width: 60%;
+        padding: 10px;
+        margin: auto;
+        border-radius: 0 30px 30px 0;
+    }
+
+    h2 {
+        margin: 0px;
+    }
+
+    h3 {
+        margin-top: 0px;
+        margin-bottom: 3px;
+    }
+
+    p {
+        margin-top: 0px;
+        margin-bottom: 3px;
+    }
+
+    .portfolio-info {
+        margin-bottom: 3px;
+        color: rgb(51, 51, 51);
+        border-bottom: 2px solid rgb(150, 150, 150);
+    }
+
+    .user-foto {
+        height: 150px;
+        width: 150px;
+    }
+
+    .botton {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .social {
+        height: 35px;
+        width: 35px;
         padding: 7px;
+    }
+}
+
+@media only screen and (min-width: 960px) and (orientation: landscape) {
+    .portfolio {
+        border-radius: 30px; 
+    }
+
+    .portfolio-left {
+        padding: 10px;  
+        border-radius: 30px 0 0 30px;  
+    }
+
+    .portfolio-right {
+        background: white;
+        width: 60%;
+        padding: 10px;
+        margin: auto;
+        border-radius: 0 30px 30px 0;
+    }
+
+    h2 {
+        margin: 0px;
+    }
+
+    h3 {
+        margin-top: 0px;
+        margin-bottom: 3px;
+    }
+
+    p {
+        margin-top: 0px;
+        margin-bottom: 3px;
+    }
+
+    .portfolio-info {
+        margin-bottom: 3px;
+        color: rgb(51, 51, 51);
+        border-bottom: 2px solid rgb(150, 150, 150);
+    }
+
+    .user-foto {
+        height: 180px;
+        width: 180px;
+    }
+
+    .botton {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .social {
+        height: 40px;
+        width: 40px;
+        padding: 10px;
     }
 }
