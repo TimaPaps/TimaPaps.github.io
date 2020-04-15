@@ -1,4 +1,4 @@
-@media only screen and (max-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+@media all and (max-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .portfolio {
         display: block;
         width: 90%;
@@ -62,7 +62,7 @@
     }
 }
 
-@media only screen and (max-width: 768px) and  (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+@media all and (max-width: 768px) and  (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
     .portfolio {
         border-radius: 30px; 
     }
