@@ -63,7 +63,7 @@
     }
 }
 
-@media screen and (min-width: 720px) and (max-width: 1280px) {
+@media screen and (min-width: 721px) and (max-width: 1280px) {
     .portfolio {
         border-radius: 30px; 
     }
