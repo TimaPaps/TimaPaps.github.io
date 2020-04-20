@@ -21,7 +21,7 @@ body {
 }
 
 .portfolio-left {
-    background: orange;
+    background: rgb(255, 0, 0);
     width: 40%;
     display: flex;
     justify-content: center;
