@@ -1,5 +1,4 @@
 $('.user-foto').click(function() {
-    var transTime = 5000;
     $('.portfolio').css('background-color', 'rgb(255, 166, 0)');
     $('.portfolio-left').css('background-color', 'rgb(216, 41, 41)');
     $('.portfolio-right').css('background-color', 'rgb(255, 166, 0)');
