@@ -4,6 +4,7 @@ $('.user-foto').click(function() {
     $('.portfolio-right').css('background-color', 'rgb(255, 166, 0)');
     $('h1').css('color', 'rgb(0, 47, 255)');    
     $('.portfolio-left p').fadeIn(3000);
+    $('.user-foto').attr("src", 'images/bender_and_me.jpg');
 });
 
 $('.botton').click(function() {
